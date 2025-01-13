@@ -13,15 +13,18 @@ logging.basicConfig(
 
 # Define file categories and their extensions
 file_categories = {
-    "Videos": [".mp4", ".mkv", ".avi", ".mov", ".flv"],
-    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff"],
-    "Music": [".mp3", ".wav", ".aac", ".flac", ".ogg"],
-    "Documents": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".txt", ".ppt", ".pptx"],
+    "Videos": [".mp4", ".mkv", ".avi", ".mov", ".flv", ".wmv", ".webm"],
+    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".svg", ".webp"],
+    "Music": [".mp3", ".wav", ".aac", ".flac", ".ogg", ".m4a", ".wma"],
+    "Documents": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".txt", ".ppt", ".pptx", ".odt", ".ods"],
     "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2"],
     "Executables": [".exe", ".bat", ".sh", ".bin", ".msi"],
+    "Programming": [".py", ".java", ".cpp", ".c", ".js", ".html", ".css", ".php", ".ts", ".json", ".xml"],
+    "Ebooks": [".epub", ".mobi", ".azw3", ".lit"],
+    "System Files": [".dll", ".sys", ".ini", ".log"],
+    "Fonts": [".ttf", ".otf", ".woff", ".woff2"],
     "Others": []  # For files that don't match any category
 }
-
 def organize_files(directory):
     try:
         # Ensure the directory exists
