@@ -82,8 +82,5 @@ All actions performed by the app are logged in a file named `file_organizer.log`
 ## Contributing
 Contributions are welcome! Feel free to fork this repository and submit a pull request with your enhancements.
 
----
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
